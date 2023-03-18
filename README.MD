@@ -40,7 +40,7 @@ sudo service docker start
 sudo systemctl enable docker
 ```
 
-* Add user to docker group
+* when ever you install docker a group will be created by default. the group name is docker if you add users to that group only you can get the docker command line access. To  Add user to docker group
 
 ```
 sudo usermod -a -G docker ec2-user
